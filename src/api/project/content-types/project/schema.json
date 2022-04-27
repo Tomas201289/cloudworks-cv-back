@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "developer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::developer.developer",
+      "inversedBy": "projects"
+    },
+    "Project_description": {
+      "type": "string"
+    },
+    "technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "technology-project.technology"
+    }
+  }
+}
