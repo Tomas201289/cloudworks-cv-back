@@ -7,12 +7,12 @@
   },
   "options": {},
   "attributes": {
-    "idioma": {
+    "language": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::language.language"
     },
-    "porcentaje": {
+    "percentage": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::percentage.percentage"

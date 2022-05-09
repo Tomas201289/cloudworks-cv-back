@@ -4,6 +4,12 @@
   "type": "public",
   "permissions": [
     {
+      "action": "api::members.members.allMembers"
+    },
+    {
+      "action": "api::members.members.findMember"
+    },
+    {
       "action": "plugin::users-permissions.auth.callback"
     },
     {

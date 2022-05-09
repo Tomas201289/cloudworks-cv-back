@@ -92,21 +92,17 @@
       "subject": "api::professional.professional",
       "properties": {
         "fields": [
+          "name",
+          "last_name",
+          "job_title",
+          "quote",
           "about_me",
           "avatar",
-          "habilities.ability",
-          "habilities.porcentaje",
-          "job_title",
-          "languages.idioma",
-          "languages.porcentaje",
-          "last_name",
-          "name",
-          "quote",
-          "work_experience.description",
           "work_experience.form_date",
-          "work_experience.logo",
+          "work_experience.until_date",
           "work_experience.place",
-          "work_experience.until_date"
+          "work_experience.description",
+          "work_experience.logo"
         ]
       },
       "conditions": []
@@ -128,21 +124,17 @@
       "subject": "api::professional.professional",
       "properties": {
         "fields": [
+          "name",
+          "last_name",
+          "job_title",
+          "quote",
           "about_me",
           "avatar",
-          "habilities.ability",
-          "habilities.porcentaje",
-          "job_title",
-          "languages.idioma",
-          "languages.porcentaje",
-          "last_name",
-          "name",
-          "quote",
-          "work_experience.description",
           "work_experience.form_date",
-          "work_experience.logo",
+          "work_experience.until_date",
           "work_experience.place",
-          "work_experience.until_date"
+          "work_experience.description",
+          "work_experience.logo"
         ]
       },
       "conditions": []
@@ -152,21 +144,17 @@
       "subject": "api::professional.professional",
       "properties": {
         "fields": [
+          "name",
+          "last_name",
+          "job_title",
+          "quote",
           "about_me",
           "avatar",
-          "habilities.ability",
-          "habilities.porcentaje",
-          "job_title",
-          "languages.idioma",
-          "languages.porcentaje",
-          "last_name",
-          "name",
-          "quote",
-          "work_experience.description",
           "work_experience.form_date",
-          "work_experience.logo",
+          "work_experience.until_date",
           "work_experience.place",
-          "work_experience.until_date"
+          "work_experience.description",
+          "work_experience.logo"
         ]
       },
       "conditions": []

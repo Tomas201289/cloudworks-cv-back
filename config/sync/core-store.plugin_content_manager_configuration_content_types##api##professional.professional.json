@@ -90,7 +90,7 @@
           "sortable": false
         }
       },
-      "habilities": {
+      "abilities": {
         "edit": {
           "label": "Habilidades",
           "description": "",
@@ -99,7 +99,7 @@
           "editable": true
         },
         "list": {
-          "label": "Habilidades",
+          "label": "abilities",
           "searchable": false,
           "sortable": false
         }
@@ -211,13 +211,13 @@
         ],
         [
           {
-            "name": "habilities",
+            "name": "languages",
             "size": 12
           }
         ],
         [
           {
-            "name": "languages",
+            "name": "abilities",
             "size": 12
           }
         ],

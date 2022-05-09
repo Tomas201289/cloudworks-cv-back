@@ -20,7 +20,7 @@
           "sortable": false
         }
       },
-      "idioma": {
+      "language": {
         "edit": {
           "label": "Idioma",
           "description": "",
@@ -30,12 +30,12 @@
           "mainField": "name"
         },
         "list": {
-          "label": "idioma",
+          "label": "language",
           "searchable": true,
           "sortable": true
         }
       },
-      "porcentaje": {
+      "percentage": {
         "edit": {
           "label": "Porcentaje",
           "description": "",
@@ -45,7 +45,7 @@
           "mainField": "value"
         },
         "list": {
-          "label": "porcentaje",
+          "label": "percentage",
           "searchable": true,
           "sortable": true
         }
@@ -54,17 +54,17 @@
     "layouts": {
       "list": [
         "id",
-        "idioma",
-        "porcentaje"
+        "percentage",
+        "language"
       ],
       "edit": [
         [
           {
-            "name": "idioma",
+            "name": "language",
             "size": 6
           },
           {
-            "name": "porcentaje",
+            "name": "percentage",
             "size": 6
           }
         ]

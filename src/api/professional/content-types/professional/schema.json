@@ -31,7 +31,7 @@
       "type": "richtext",
       "required": true
     },
-    "habilities": {
+    "abilities": {
       "type": "component",
       "repeatable": true,
       "component": "profesional.habilities"
