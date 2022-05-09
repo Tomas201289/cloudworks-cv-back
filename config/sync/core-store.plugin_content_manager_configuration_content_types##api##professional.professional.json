@@ -1,0 +1,243 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::professional.professional",
+  "value": {
+    "uid": "api::professional.professional",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "ID",
+          "searchable": true,
+          "sortable": false
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "Nombre",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Nombre",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "last_name": {
+        "edit": {
+          "label": "Apellido",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Apellido",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "job_title": {
+        "edit": {
+          "label": "Puesto laboral",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Puesto laboral",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "quote": {
+        "edit": {
+          "label": "Cita",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Cita",
+          "searchable": true,
+          "sortable": false
+        }
+      },
+      "about_me": {
+        "edit": {
+          "label": "Biografia",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "about_me",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "habilities": {
+        "edit": {
+          "label": "Habilidades",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Habilidades",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "languages": {
+        "edit": {
+          "label": "Idiomas",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Idiomas",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "avatar": {
+        "edit": {
+          "label": "Avatar",
+          "description": "Resolución recomendada: 500px X 500px",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Foto",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "work_experience": {
+        "edit": {
+          "label": "Experiencia laboral",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Experiencia laboral",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "Creado en",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "Actualizado en",
+          "searchable": true,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "last_name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "avatar",
+            "size": 6
+          },
+          {
+            "name": "job_title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "quote",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "about_me",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "habilities",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "languages",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "work_experience",
+            "size": 12
+          }
+        ]
+      ],
+      "editRelations": [],
+      "list": [
+        "avatar",
+        "name",
+        "last_name",
+        "job_title"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

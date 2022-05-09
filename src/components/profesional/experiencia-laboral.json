@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_profesional_experiencia_laborals",
+  "info": {
+    "displayName": "Experiencia laboral",
+    "icon": "laptop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "form_date": {
+      "type": "date",
+      "required": true
+    },
+    "until_date": {
+      "type": "date"
+    },
+    "place": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

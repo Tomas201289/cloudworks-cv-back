@@ -1,0 +1,79 @@
+{
+  "key": "plugin_content_manager_configuration_components::profesional.languages",
+  "value": {
+    "uid": "profesional.languages",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "idioma": {
+        "edit": {
+          "label": "Idioma",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "idioma",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "porcentaje": {
+        "edit": {
+          "label": "Porcentaje",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "value"
+        },
+        "list": {
+          "label": "porcentaje",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "idioma",
+        "porcentaje"
+      ],
+      "edit": [
+        [
+          {
+            "name": "idioma",
+            "size": 6
+          },
+          {
+            "name": "porcentaje",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

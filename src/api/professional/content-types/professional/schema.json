@@ -36,18 +36,23 @@
       "repeatable": true,
       "component": "profesional.habilities"
     },
-    "Idiomas": {
+    "languages": {
       "type": "component",
       "repeatable": true,
       "component": "profesional.languages"
     },
     "avatar": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "work_experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profesional.experiencia-laboral"
     }
   }
 }

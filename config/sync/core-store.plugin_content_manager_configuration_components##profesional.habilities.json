@@ -1,0 +1,79 @@
+{
+  "key": "plugin_content_manager_configuration_components::profesional.habilities",
+  "value": {
+    "uid": "profesional.habilities",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "ability": {
+        "edit": {
+          "label": "Habilidad",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "ability",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "porcentaje": {
+        "edit": {
+          "label": "Porcentaje",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "value"
+        },
+        "list": {
+          "label": "porcentaje",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "ability",
+        "porcentaje"
+      ],
+      "edit": [
+        [
+          {
+            "name": "ability",
+            "size": 6
+          },
+          {
+            "name": "porcentaje",
+            "size": 6
+          }
+        ]
+      ],
+      "editRelations": []
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
