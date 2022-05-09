@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "professionals",
+  "info": {
+    "singularName": "professional",
+    "pluralName": "professionals",
+    "displayName": "Profesional",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "job_title": {
+      "type": "string",
+      "required": true
+    },
+    "quote": {
+      "type": "string"
+    },
+    "about_me": {
+      "type": "richtext",
+      "required": true
+    },
+    "habilities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profesional.habilities"
+    },
+    "Idiomas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profesional.languages"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

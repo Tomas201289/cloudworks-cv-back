@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_profesional_languages",
+  "info": {
+    "displayName": "Idiomas",
+    "icon": "language",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "idioma": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::language.language"
+    },
+    "porcentaje": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::percentage.percentage"
+    }
+  }
+}

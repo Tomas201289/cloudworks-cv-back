@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_profesional_habilities",
+  "info": {
+    "displayName": "Habilidades",
+    "icon": "award",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ability": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ability.ability"
+    },
+    "porcentaje": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::percentage.percentage"
+    }
+  }
+}

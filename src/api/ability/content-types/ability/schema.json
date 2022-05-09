@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abilities",
+  "info": {
+    "singularName": "ability",
+    "pluralName": "abilities",
+    "displayName": "Habilidad",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
