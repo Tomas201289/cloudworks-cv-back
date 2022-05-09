@@ -22,7 +22,7 @@
       },
       "username": {
         "edit": {
-          "label": "username",
+          "label": "Nombre de usuario",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "email": {
         "edit": {
-          "label": "email",
+          "label": "Email",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "password": {
         "edit": {
-          "label": "password",
+          "label": "Contraseña",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -106,7 +106,7 @@
       },
       "confirmed": {
         "edit": {
-          "label": "confirmed",
+          "label": "Confirmado",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -120,7 +120,7 @@
       },
       "blocked": {
         "edit": {
-          "label": "blocked",
+          "label": "Bloqueado",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -134,7 +134,7 @@
       },
       "role": {
         "edit": {
-          "label": "role",
+          "label": "Rol",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -191,16 +191,14 @@
         [
           {
             "name": "password",
-            "size": 6
+            "size": 4
+          },
+          {
+            "name": "blocked",
+            "size": 4
           },
           {
             "name": "confirmed",
-            "size": 4
-          }
-        ],
-        [
-          {
-            "name": "blocked",
             "size": 4
           }
         ]

@@ -1,8 +1,176 @@
 {
   "name": "Editor",
   "code": "strapi-editor",
-  "description": "Editors can manage and publish contents including those of other users.",
+  "description": "Los editores pueden ver, crear, editar y eliminar Profesionales, Idiomas, Habilidades y Proyectos.",
   "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::ability.ability",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::ability.ability",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::ability.ability",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::ability.ability",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::ability.ability",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::language.language",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::language.language",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::language.language",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::language.language",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::language.language",
+      "properties": {
+        "fields": [
+          "name"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::professional.professional",
+      "properties": {
+        "fields": [
+          "about_me",
+          "avatar",
+          "habilities.ability",
+          "habilities.porcentaje",
+          "job_title",
+          "languages.idioma",
+          "languages.porcentaje",
+          "last_name",
+          "name",
+          "quote",
+          "work_experience.description",
+          "work_experience.form_date",
+          "work_experience.logo",
+          "work_experience.place",
+          "work_experience.until_date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::professional.professional",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::professional.professional",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::professional.professional",
+      "properties": {
+        "fields": [
+          "about_me",
+          "avatar",
+          "habilities.ability",
+          "habilities.porcentaje",
+          "job_title",
+          "languages.idioma",
+          "languages.porcentaje",
+          "last_name",
+          "name",
+          "quote",
+          "work_experience.description",
+          "work_experience.form_date",
+          "work_experience.logo",
+          "work_experience.place",
+          "work_experience.until_date"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::professional.professional",
+      "properties": {
+        "fields": [
+          "about_me",
+          "avatar",
+          "habilities.ability",
+          "habilities.porcentaje",
+          "job_title",
+          "languages.idioma",
+          "languages.porcentaje",
+          "last_name",
+          "name",
+          "quote",
+          "work_experience.description",
+          "work_experience.form_date",
+          "work_experience.logo",
+          "work_experience.place",
+          "work_experience.until_date"
+        ]
+      },
+      "conditions": []
+    },
     {
       "action": "plugin::upload.assets.copy-link",
       "subject": null,

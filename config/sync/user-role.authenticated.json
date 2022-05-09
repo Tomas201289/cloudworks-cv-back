@@ -1,6 +1,6 @@
 {
-  "name": "Authenticated",
-  "description": "Default role given to authenticated user.",
+  "name": "Autenticado",
+  "description": "Rol por defecto para los usuarios autenticados.",
   "type": "authenticated",
   "permissions": [
     {

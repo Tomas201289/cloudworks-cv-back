@@ -1,7 +1,7 @@
 {
-  "name": "Author",
+  "name": "Supervisor",
   "code": "strapi-author",
-  "description": "Authors can manage the content they have created.",
+  "description": "Supervisores",
   "permissions": [
     {
       "action": "plugin::upload.assets.copy-link",

@@ -1,6 +1,6 @@
 {
-  "name": "Public",
-  "description": "Default role given to unauthenticated user.",
+  "name": "Publico",
+  "description": "Rol por defecto para los usuarios no autenticados.",
   "type": "public",
   "permissions": [
     {
